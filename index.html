@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Organelles</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="big-div">
+      <div class="title">
+        <h1>Organelles</h1>
+      </div>
+      <div class="stuff">
+        <div class="facts">
+          <h2 id="organelle">Cytoplasm</h2>
+          <p id="fact">Found in both animal and plant cells. Clear, thick gel-like fluid. Holds organelles in place or allows organelles to move around.</p>
+        </div>
+        <img id="image" src="./pictures/cytoplasm.png">
+      </div>
+      <div class="buttons">
+        <button onclick="document.getElementById('organelle').innerHTML = 'Cytoplasm'; document.getElementById('fact').innerHTML = 'Found in both animal and plant cells. Clear, thick gel-like fluid. Holds organelles in place or allows organelles to move around.'; document.getElementById('image').src = './pictures/cytoplasm.png';">Cytoplasm</button>
+        <button onclick="document.getElementById('organelle').innerHTML = 'Cell Wall'; document.getElementById('fact').innerHTML = 'Found in plant cells. A rigid layer of material surrounding the cell. Supports and protects the cell.'; document.getElementById('image').src = './pictures/cell-wall.png';">Cell Wall</button>
+        <button onclick="document.getElementById('organelle').innerHTML = 'Cell Membrane'; document.getElementById('fact').innerHTML = 'Found in both plant and animal cells. Plants - layer inside the cell wall. Animals - outer layer that separates the cell from its environment. To protect the cell and control substances that go in and out of the cell.'; document.getElementById('image').src = './pictures/cell-membrane.png';">Cell Membrane</button>
+        <button onclick="document.getElementById('organelle').innerHTML = 'Nucleus'; document.getElementById('fact').innerHTML = 'Found in both plant and animal cells. Oval structure. Controls the center of the cell and holds genetic material.'; document.getElementById('image').src = './pictures/nucleus.png';">Nucleus</button>
+        <button onclick="document.getElementById('organelle').innerHTML = 'Mitochondria'; document.getElementById('fact').innerHTML = 'Found in both plant and animal cells. Rod shaped structure. The powerhouse of the cell. Converts energy from food into energy the cell can use.'; document.getElementById('image').src = './pictures/mitochondria.png';">Mitochondria</button>
+        <button onclick="document.getElementById('organelle').innerHTML = 'Chloroplast'; document.getElementById('fact').innerHTML = 'Found in plant cells. Green structures. Captures energy from sunlight and uses it to produce food.'; document.getElementById('image').src = './pictures/chloroplast.png';">Chloroplast</button>
+        <button onclick="document.getElementById('organelle').innerHTML = 'Lysosomes'; document.getElementById('fact').innerHTML = 'Found in animal cells. Round structures. Breaks down certain materials in the cell such as large food particles and old cell parts.'; document.getElementById('image').src = './pictures/lysosomes.png';">Lysosomes</button>
+        <button onclick="document.getElementById('organelle').innerHTML = 'Endoplasmic Reticulum'; document.getElementById('fact').innerHTML = 'Found in both plant and animal cells. A maze of passageways located around the nucleus. Carry proteins from one part of the cell to another.'; document.getElementById('image').src = './pictures/endoplasmic-reticulum.png';">Endoplasmic Reticulum</button>
+      </div>
+    </div>
+  </body>
+</html>
